@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Modules\Payment\Http\Controllers\PaymentController;
 
 /*
     |--------------------------------------------------------------------------
@@ -14,6 +15,11 @@ use Illuminate\Support\Facades\Route;
     |
 */
 
-Route::middleware(['auth:sanctum'])->prefix('v1')->name('api.')->group(function () {
-    Route::get('payment', fn (Request $request) => $request->user())->name('payment');
-});
+// Route::middleware(['auth:sanctum'])->prefix('v1')->name('api.')->group(function () {
+//     Route::get('payment', fn (Request $request) => $request->user())->name('payment');
+// });
+
+
+Route::post('payment',[PaymentController::class,'store'])->name('stripe');
+Route::get('success',[PaymentController::class,'success'])->name('success');
+Route::get('cancel',[PaymentController::class,'cancel'])->name('cancel');
