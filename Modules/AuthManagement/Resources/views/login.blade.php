@@ -19,19 +19,19 @@
 
     <!-- Web Fonts -->
     <!-- Web Fonts -->
-    <link href="{{ asset('public/assets/admin-module/css/fonts/google.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/admin-module/css/fonts/google.css') }}" rel="stylesheet">
 
     <!-- ======= BEGIN GLOBAL MANDATORY STYLES ======= -->
-    <link rel="stylesheet" href="{{ asset('public/assets/admin-module/css/bootstrap.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('public/assets/admin-module/css/bootstrap-icons.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/admin-module/css/bootstrap.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/admin-module/css/bootstrap-icons.min.css') }}" />
     <link rel="stylesheet"
-        href="{{ asset('public/assets/admin-module/plugins/perfect-scrollbar/perfect-scrollbar.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('public/assets/admin-module/css/toastr.css') }}" />
+        href="{{ asset('assets/admin-module/plugins/perfect-scrollbar/perfect-scrollbar.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/admin-module/css/toastr.css') }}" />
     <!-- ======= END BEGIN GLOBAL MANDATORY STYLES ======= -->
 
     <!-- ======= MAIN STYLES ======= -->
-    <link rel="stylesheet" href="{{ asset('public/assets/admin-module/css/style.css') }}" />
-    <link rel="stylesheet" href="{{ asset('public/assets/admin-module/css/custom.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/admin-module/css/style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/admin-module/css/custom.css') }}" />
     <!-- ======= END MAIN STYLES ======= -->
 </head>
 
@@ -62,7 +62,7 @@
     </div>
     <!-- End Preloader -->
     <!-- Login Form -->
-    <div class="login-form" data-bg-img="{{ asset('public/assets/admin-module') }}/img/media/login-bg.png">
+    <div class="login-form" data-bg-img="{{ asset('assets/admin-module') }}/img/media/login-bg.png">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-xl-7">
@@ -73,7 +73,7 @@
                             <div class="login-wrap">
                                 <div class="login-left">
                                     <img class="login-img"
-                                        src="{{ asset('public/assets/admin-module') }}/img/media/login-img.png"
+                                        src="{{ asset('assets/admin-module') }}/img/media/login-img.png"
                                         alt="">
                                 </div>
                                 <div class="login-right-wrap">
@@ -89,7 +89,7 @@
                                                     src="{{ onErrorImage(
                                                         $logo,
                                                         asset('storage/app/public/business') . '/' . $logo,
-                                                        asset('public/assets/admin-module/img/logo.png'),
+                                                        asset('assets/admin-module/img/logo.png'),
                                                         'business/',
                                                     ) }}"
                                                     alt="">
@@ -170,11 +170,11 @@
     <!-- End Login Form -->
 
     <!-- ======= BEGIN GLOBAL MANDATORY SCRIPTS ======= -->
-    <script src="{{ asset('public/assets/admin-module/js/jquery-3.6.0.min.js') }}"></script>
-    <script src="{{ asset('public/assets/admin-module/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('public/assets/admin-module/js/main.js') }}"></script>
-    <script src="{{ asset('public/assets/admin-module/js/toastr.js') }}"></script>
-    <script src="{{ asset('public/assets/admin-module/js/login.js') }}"></script>
+    <script src="{{ asset('assets/admin-module/js/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ asset('assets/admin-module/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/admin-module/js/main.js') }}"></script>
+    <script src="{{ asset('assets/admin-module/js/toastr.js') }}"></script>
+    <script src="{{ asset('assets/admin-module/js/login.js') }}"></script>
     <!-- ======= BEGIN GLOBAL MANDATORY SCRIPTS ======= -->
 
     {!! Toastr::message() !!}

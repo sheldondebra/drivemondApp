@@ -12,7 +12,7 @@
                 <div class="footer__wrapper-widget">
                     <div class="cont">
                         <a href="{{ route('index') }}" class="logo">
-                            <img src="{{ $logo ? asset("storage/app/public/business/".$logo) : asset('public/landing-page/assets/img/logo.png') }}" alt="logo">
+                            <img src="{{ $logo ? asset("storage/app/public/business/".$logo) : asset('landing-page/assets/img/logo.png') }}" alt="logo">
                         </a>
                         <p>
                             {{translate('Connect with our social media and other sites to keep up to date')}}
@@ -22,25 +22,25 @@
                                 @if($link->name == "facebook")
                                 <li>
                                     <a href="{{$link->link}}" target="_blank">
-                                        <img src="{{ asset('public/landing-page/assets/img/footer/facebook.png') }}" alt="img">
+                                        <img src="{{ asset('landing-page/assets/img/footer/facebook.png') }}" alt="img">
                                     </a>
                                 </li>
                                 @elseif($link->name == "instagram")
                                 <li>
                                     <a href="{{$link->link}}"  target="_blank">
-                                        <img src="{{ asset('public/landing-page/assets/img/footer/instagram.png') }}" alt="img">
+                                        <img src="{{ asset('landing-page/assets/img/footer/instagram.png') }}" alt="img">
                                     </a>
                                 </li>
                                 @elseif($link->name == "twitter")
                                 <li>
                                     <a href="{{$link->link}}"  target="_blank">
-                                        <img src="{{ asset('public/landing-page/assets/img/footer/twitter.png') }}" alt="img">
+                                        <img src="{{ asset('landing-page/assets/img/footer/twitter.png') }}" alt="img">
                                     </a>
                                 </li>
                                 @elseif($link->name == "linkedin")
                                 <li>
                                     <a href="{{$link->link}}"  target="_blank">
-                                        <img src="{{ asset('public/landing-page/assets/img/footer/linkedin.png') }}" alt="img">
+                                        <img src="{{ asset('landing-page/assets/img/footer/linkedin.png') }}" alt="img">
                                     </a>
                                 </li>
                                 @endif
@@ -52,11 +52,11 @@
                                 <h6 class="text-white mb-3 font-regular">User App</h6>
                                 <div class="d-flex gap-3 flex-column">
                                     <a target="_blank"  type="button" href="{{ $cta && $cta['app_store']['user_download_link'] ? $cta['app_store']['user_download_link'] : "" }}">
-                                        <img src="{{ asset('public/landing-page') }}/assets/img/app-store.png"
+                                        <img src="{{ asset('landing-page') }}/assets/img/app-store.png"
                                              class="w-115px" alt="">
                                     </a>
                                     <a target="_blank" type="button" href="{{ $cta && $cta['play_store']['user_download_link'] ? $cta['play_store']['user_download_link'] : "" }}">
-                                        <img src="{{ asset('public/landing-page') }}/assets/img/play-store.png"
+                                        <img src="{{ asset('landing-page') }}/assets/img/play-store.png"
                                              class="w-115px" alt="">
                                     </a>
                                 </div>
@@ -65,11 +65,11 @@
                                 <h6 class="text-white mb-3 font-regular">Driver App</h6>
                                 <div class="d-flex gap-3 flex-column">
                                     <a target="_blank" type="button" href="{{ $cta && $cta['app_store']['driver_download_link'] ? $cta['app_store']['driver_download_link'] : "" }}">
-                                        <img src="{{ asset('public/landing-page') }}/assets/img/app-store.png"
+                                        <img src="{{ asset('landing-page') }}/assets/img/app-store.png"
                                              class="w-115px" alt="">
                                     </a>
                                     <a target="_blank" type="button" href="{{ $cta && $cta['play_store']['driver_download_link'] ? $cta['play_store']['driver_download_link'] : "" }}">
-                                        <img src="{{ asset('public/landing-page') }}/assets/img/play-store.png"
+                                        <img src="{{ asset('landing-page') }}/assets/img/play-store.png"
                                              class="w-115px" alt="">
                                     </a>
                                 </div>
@@ -98,7 +98,7 @@
                 </div>
                 <div class="footer__wrapper-widget">
                     <div class="footer__wrapper-contact">
-                        <img class="icon" src="{{ asset('public/landing-page') }}/assets/img/footer/mail.png" alt="footer">
+                        <img class="icon" src="{{ asset('landing-page') }}/assets/img/footer/mail.png" alt="footer">
                         <h6>
                             {{ translate('Send us Mail') }}
                         </h6>
@@ -107,7 +107,7 @@
                 </div>
                 <div class="footer__wrapper-widget">
                     <div class="footer__wrapper-contact">
-                        <img class="icon" src="{{ asset('public/landing-page') }}/assets/img/footer/tel.png" alt="footer">
+                        <img class="icon" src="{{ asset('landing-page') }}/assets/img/footer/tel.png" alt="footer">
                         <h6>
                             {{ translate('Contact Us') }}
                         </h6>
@@ -119,7 +119,7 @@
                 </div>
                 <div class="footer__wrapper-widget">
                     <div class="footer__wrapper-contact">
-                        <img class="icon" src="{{ asset('public/landing-page') }}/assets/img/footer/pin.png" alt="footer">
+                        <img class="icon" src="{{ asset('landing-page') }}/assets/img/footer/pin.png" alt="footer">
                         <h6>
                             {{ translate('Send us Mail') }}
                         </h6>

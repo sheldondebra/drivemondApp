@@ -10,7 +10,6 @@
     <div class="container pt-3">
         <section class="page-header">
             <h3 class="title">{{ translate('Contact Us') }}</h3>
-{
         </section>
     </div>
     <!-- Page Header End -->
