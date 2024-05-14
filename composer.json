@@ -29,7 +29,7 @@
         "react/promise": "^3.1",
         "spatie/db-dumper": "^3.4",
         "stevebauman/location": "^7.1",
-        "stripe/stripe-php": "^13.9",
+        "stripe/stripe-php": "^14.6",
         "twilio/sdk": "^7.14",
         "unicodeveloper/laravel-paystack": "^1.1",
         "xendit/xendit-php": "^4.1"

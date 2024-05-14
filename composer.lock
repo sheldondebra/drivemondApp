@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7a2193f2ff1f959a24a701c1ab36407",
+    "content-hash": "7d1e500bfe410478b010525b4a574a6b",
     "packages": [
         {
             "name": "barryvdh/laravel-dompdf",
@@ -7635,16 +7635,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v13.18.0",
+            "version": "v14.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "02abb043b103766f4ed920642ae56ffdc58c7467"
+                "reference": "cc4108812a0b6db06041e520fe340f6d8ecfeff1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/02abb043b103766f4ed920642ae56ffdc58c7467",
-                "reference": "02abb043b103766f4ed920642ae56ffdc58c7467",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/cc4108812a0b6db06041e520fe340f6d8ecfeff1",
+                "reference": "cc4108812a0b6db06041e520fe340f6d8ecfeff1",
                 "shasum": ""
             },
             "require": {
@@ -7688,9 +7688,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v13.18.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v14.6.0"
             },
-            "time": "2024-04-09T21:08:04+00:00"
+            "time": "2024-05-09T19:39:17+00:00"
         },
         {
             "name": "symfony/console",
@@ -13013,5 +13013,5 @@
         "php": "^8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
