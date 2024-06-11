@@ -1199,4 +1199,5 @@
   'Embrace the future today and explore the amazing features that make DriveMond the smart  sustainable  and efficient ride sharing & delivery solution.' => 'Embrace the future today and explore the amazing features that make DriveMond the smart  sustainable  and efficient ride sharing & delivery solution.',
   'It’s Time to Change The Riding Experience' => 'It’s Time to Change The Riding Experience',
   '' => '',
+  'update_profile' => 'Update profile',
 );
